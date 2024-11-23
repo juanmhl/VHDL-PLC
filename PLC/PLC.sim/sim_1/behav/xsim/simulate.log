@@ -1,0 +1,51 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+Retardo,Entradas
+1000 ns,000
+1000 ns,001
+1000 ns,010
+1000 ns,011
+1000 ns,010
+1000 ns,001
+1000 ns,000
+1000 ns,000
+1000 ns,001
+1000 ns,001
+1000 ns,010
+1000 ns,010
+1000 ns,011
+1000 ns,011
+1000 ns,010
+1000 ns,010
+1000 ns,001
+1000 ns,001
+1000 ns,000
+1000 ns,010
+1000 ns,011
+1000 ns,001
+1000 ns,010
+1000 ns,000

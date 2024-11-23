@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jan 12 15:45:31 2022
+# Process ID: 12976
+# Current directory: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14072 C:\Users\Usuario\Desktop\PracticasSEA_v5\PLC_JM\PLC\PLC.xpr
+# Log file: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/vivado.log
+# Journal file: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 658.469 ; gain = 68.891
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test_Bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Test_Bench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 212db5371b4f4f31a7a88898590c4d29 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Test_Bench_behav xil_defaultlib.Test_Bench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_Bench_behav -key {Behavioral:sim_1:Functional:Test_Bench} -tclbatch {Test_Bench.tcl} -view {C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/Test_Bench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/Test_Bench_behav.wcfg
+source Test_Bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 736.813 ; gain = 37.750
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_Bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 736.813 ; gain = 37.750
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5000 ns
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+run 5000 ns
+ERROR: [Simulator 45-1] A fatal run-time error was detected.  Simulation cannot continue.
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5000 ns
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5000 ns
+Retardo,Entradas
+ERROR: File C:\Users\Usuario\Desktop\estimulos.csv error. Cannot write to it
+Time: 0 ps  Iteration: 0  Process: /Test_Bench/Estimulos_Desde_Fichero
+  File: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd
+
+HDL Line: C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd:197
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5000 ns
+Retardo,Entradas
+1000 ns,000
+1000 ns,001
+1000 ns,010
+1000 ns,011
+1000 ns,010
+1000 ns,001
+run 5000 ns
+1000 ns,000
+1000 ns,000
+1000 ns,001
+1000 ns,001
+1000 ns,010
+run 5000 ns
+1000 ns,010
+1000 ns,011
+1000 ns,011
+1000 ns,010
+1000 ns,010
+run 5000 ns
+1000 ns,001
+1000 ns,001
+1000 ns,000
+1000 ns,010
+1000 ns,011
+run 5000 ns
+1000 ns,001
+1000 ns,010
+1000 ns,000
+run 5000 ns
+run 5000 ns
+save_wave_config {C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/Test_Bench_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 761.660 ; gain = 0.711
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 14 12:18:22 2022...

@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd,1641901749,vhdl,,,,test_bench,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/CKE_Gen.vhd,1607936198,vhdl,,,,cke_gen,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Debouncer.vhd,1607936200,vhdl,,,,debouncer,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/FSM_PLC.vhd,1641900404,vhdl,,,,fsm_plc,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/MUX_PLC.vhd,1607936178,vhdl,,,,mux_plc,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Mis_Tipos_PLC.vhd,1607936174,vhdl,C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sim_1/new/Test_Bench.vhd,,,tipos_fsm_plc,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Reg_Des.vhd,1607936204,vhdl,,,,reg_des,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Reg_PLC.vhd,1607936180,vhdl,,,,reg_plc,,,,,,,,
+C:/Users/Usuario/Desktop/PracticasSEA_v5/PLC_JM/PLC/PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Sincronizador.vhd,1607936206,vhdl,,,,sincronizador,,,,,,,,

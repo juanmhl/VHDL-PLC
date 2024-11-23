@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Test_Bench" />
+            <top_module name="tipos_fsm_plc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="15549400000fs"></ZoomStartTime>
+      <ZoomEndTime time="28569400001fs"></ZoomEndTime>
+      <Cursor1Time time="27899400000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Test_Bench/x" type="array">
+      <obj_property name="ElementShortName">x[2:0]</obj_property>
+      <obj_property name="ObjectShortName">x[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/DUT/Estado_Actual" type="array">
+      <obj_property name="ElementShortName">Estado_Actual[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Estado_Actual[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/y" type="array">
+      <obj_property name="ElementShortName">y[3:0]</obj_property>
+      <obj_property name="ObjectShortName">y[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/Trigger" type="logic">
+      <obj_property name="ElementShortName">Trigger</obj_property>
+      <obj_property name="ObjectShortName">Trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/DUT/Clock_Enable" type="logic">
+      <obj_property name="ElementShortName">Clock_Enable</obj_property>
+      <obj_property name="ObjectShortName">Clock_Enable</obj_property>
+   </wvobject>
+</wave_config>

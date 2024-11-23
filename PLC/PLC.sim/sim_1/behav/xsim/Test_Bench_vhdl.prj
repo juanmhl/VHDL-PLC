@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/CKE_Gen.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Debouncer.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Mis_Tipos_PLC.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/FSM_PLC.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/MUX_PLC.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Reg_Des.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Reg_PLC.vhd" \
+"../../../../PLC.srcs/sources_1/imports/codigos_VHDL_PLC/Sincronizador.vhd" \
+"../../../../PLC.srcs/sim_1/new/Test_Bench.vhd" \
+
+# Do not sort compile order
+nosort
